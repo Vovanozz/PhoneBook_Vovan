@@ -21,10 +21,12 @@ public class RegistrationTests extends TestBase{
        int i= random.nextInt(100);
        String email = "Bob"+i+"@gmail.com";
 
+
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(email,"Bob12345$");
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Method 'registrationSuccess' stopped with email:"+email+" password:Bob12345$");
 
     }
     @Test
@@ -34,6 +36,7 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().submitRegistration();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Wrong email or password format"));
+        logger.info("Method 'registrationWrongEmail' stopped with Error message: 'Wrong email or password format'");
 
     }
     @Test
@@ -43,6 +46,7 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().submitRegistration();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("Wrong email or password format"));
+        logger.info("Method 'registrationWrongPassword' stopped with Error message: 'Wrong email or password format'");
 
     }
     @Test
@@ -52,6 +56,7 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().submitRegistration();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed("User already exist"));
+        logger.info("Method 'registrationUserAlreadyExists' stopped with Error message: 'User already exist'");
 
     }
 

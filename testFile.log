@@ -1,0 +1,208 @@
+20:53:55.504  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:53:56.607  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:53:56.634  INFO  tests.TestBase  The name of starts method is--->loginSuccess
+20:54:03.075  INFO  tests.TestBase  Test success
+20:55:33.636  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:55:35.014  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:55:35.039  INFO  tests.TestBase  The name of starts method is--->loginSuccess
+20:55:41.399  INFO  tests.TestBase  Test success
+18:47:27.574  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+18:47:29.778  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+18:47:29.802  INFO  tests.TestBase  The name of starts method is--->loginSuccess
+18:47:34.828  INFO  tests.TestBase  Login with valid data : email:bob@gmail.com & password: Bob12345$
+18:47:36.246  INFO  tests.TestBase  Test success
+19:10:30.159  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:10:31.051  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:10:31.075  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+19:10:36.429  INFO  tests.TestBase  addContactSuccessTest with Name:Bob1311
+19:12:04.173  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:12:05.323  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:12:05.347  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+19:12:10.698  INFO  tests.TestBase  addContactSuccessTest with Name:Bob1086phoneNumber:12345566761086
+19:12:54.263  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:12:55.979  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:12:56.008  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+19:13:01.383  INFO  tests.TestBase  addContactSuccessTest with Name:Bob1637 phoneNumber:12345566761637
+19:15:00.397  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:15:02.825  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:15:02.852  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+19:15:08.267  INFO  tests.TestBase  addContactSuccessTest started-->
+19:15:11.358  INFO  tests.TestBase  addContactSuccessTest with Name:Bob1290 phoneNumber:12345566761290
+19:17:11.719  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:17:12.757  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:17:12.813  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+19:17:23.153  INFO  tests.TestBase  New Contact Added with Name:Bob1358 phoneNumber:12345566761358
+19:18:40.451  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:18:42.898  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:18:42.930  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:20:28.416  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:20:30.763  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:20:30.799  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:21:12.712  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:21:13.974  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:21:14.009  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:22:01.571  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:22:02.789  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:22:02.837  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:23:38.178  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:23:41.467  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:23:41.512  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:26:39.415  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:26:44.821  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:26:44.859  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:27:14.484  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:27:20.665  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:27:20.713  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:43:05.654  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:43:07.345  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:43:07.371  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+19:43:20.268  INFO  tests.TestBase  adding new contact failed due to invalid 'Name' field
+19:44:12.126  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:44:13.210  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:44:13.235  INFO  tests.TestBase  The name of starts method is--->addWrongLastNameContact
+19:51:14.705  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:51:16.057  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:51:16.091  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+19:51:24.536  INFO  tests.TestBase  Method addContactSuccessAllFields stopped with: 
+Contacts(name=Bob1891, lastName=Marley, phone=12345566761891, email=vov1891@gmail.com, address=New york, description=The best friend)
+19:53:06.349  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+19:53:12.621  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+19:53:12.647  INFO  tests.TestBase  The name of starts method is--->addContactByOnlyRequiredFields
+19:53:21.171  INFO  tests.TestBase  Method addContactByOnlyRequiredFields stopped with: 
+Contacts(name=Vladimir1572, lastName=Ozer, phone=232434535631572, email=vov1572@gmail.com, address=Ariel, description=null)
+20:00:05.669  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:00:07.713  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:00:07.739  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+20:00:21.108  INFO  tests.TestBase  Method addContactByOnlyRequiredFields stopped with: 
+Contacts(name=, lastName=Ozer, phone=232434535631868, email=vov1868@gmail.com, address=Ariel, description=null)
+20:00:21.108  INFO  tests.TestBase  adding new contact failed due to invalid 'Name' field
+20:01:07.286  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:01:10.152  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:01:10.173  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+20:01:23.150  INFO  tests.TestBase  Method addWrongNameContact stopped with: 
+Contacts(name=, lastName=Ozer, phone=232434535631613, email=vov1613@gmail.com, address=Ariel, description=null)
+20:01:23.151  INFO  tests.TestBase  adding new contact failed due to invalid 'Name' field
+20:03:45.790  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:03:50.153  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:03:50.179  INFO  tests.TestBase  The name of starts method is--->addWrongLastNameContact
+20:04:03.169  INFO  tests.TestBase  Method 'addWrongLastNameContact' stopped with: 
+Contacts(name=Vovan, lastName=, phone=232434535631310, email=vov1310@gmail.com, address=Ariel, description=null)
+20:04:03.170  INFO  tests.TestBase  adding new contact failed due to invalid 'Last Name' field
+20:08:42.290  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:08:43.367  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:08:43.422  INFO  tests.TestBase  The name of starts method is--->addWrongEmailContact
+20:08:56.747  INFO  tests.TestBase  Method 'addWrongEmailContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=232434535631579, email=vovgmail.com, address=Ariel, description=null)
+20:08:56.747  INFO  tests.TestBase  adding new contact failed due to invalid 'email' field: Error message is: 'Email not valid'
+20:11:17.455  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:11:20.919  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:11:20.955  INFO  tests.TestBase  The name of starts method is--->addWrongPhoneContact
+20:11:34.203  INFO  tests.TestBase  Method 'addWrongPhoneContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=, email=vovan1785@gmail.com, address=Ariel, description=null)
+20:11:34.203  INFO  tests.TestBase  adding new contact failed due to invalid 'Phone' field: Error message is: 'Phone not valid'
+20:13:32.668  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:13:33.771  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:13:33.799  INFO  tests.TestBase  The name of starts method is--->addWrongPhoneContact
+20:13:46.777  INFO  tests.TestBase  Method 'addWrongPhoneContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=, email=vovan1311@gmail.com, address=Ariel, description=null)
+20:13:46.778  INFO  tests.TestBase  adding new contact failed due to invalid 'Phone' field: Error message is: 'Phone not valid'
+ button'Save' not clickable
+20:15:52.423  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:15:53.542  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:15:53.573  INFO  tests.TestBase  The name of starts method is--->addWrongEmailContact
+20:16:14.095  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:16:15.083  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:16:15.122  INFO  tests.TestBase  The name of starts method is--->addWrongEmailContact
+20:16:28.100  INFO  tests.TestBase  Method 'addWrongEmailContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=232434535631907, email=vovgmail.com, address=Ariel, description=null)
+20:16:28.101  INFO  tests.TestBase  adding new contact failed due to invalid 'email' field: Error message is: 'Email not valid'
+ button 'Save' not clickable
+20:20:23.024  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:20:23.971  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:20:24.003  INFO  tests.TestBase  The name of starts method is--->addContactByOnlyRequiredFields
+20:20:32.935  INFO  tests.TestBase  Method 'addContactByOnlyRequiredFields' stopped with: 
+Contacts(name=Vladimir1133, lastName=Ozer, phone=232434535631133, email=vov1133@gmail.com, address=Ariel, description=null)
+20:20:32.993  INFO  tests.TestBase  The name of starts method is--->addContactSuccessAllFields
+20:20:35.203  INFO  tests.TestBase  Method 'addContactSuccessAllFields' stopped with: 
+Contacts(name=Bob1234, lastName=Marley, phone=12345566761234, email=vov1234@gmail.com, address=New york, description=The best friend)
+20:20:35.240  INFO  tests.TestBase  The name of starts method is--->addWrongAddressContact
+20:20:41.857  INFO  tests.TestBase  Method 'addWrongAddressContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=232434535631189, email=vov1189@gmail.com, address=, description=null)
+20:20:41.858  INFO  tests.TestBase  adding new contact failed due to invalid 'Address' field:  button 'Save' not clickable
+20:20:41.902  INFO  tests.TestBase  The name of starts method is--->addWrongEmailContact
+20:20:48.600  INFO  tests.TestBase  Method 'addWrongEmailContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=232434535631413, email=vovgmail.com, address=Ariel, description=null)
+20:20:48.600  INFO  tests.TestBase  adding new contact failed due to invalid 'email' field: Error message is: 'Email not valid'
+ button 'Save' not clickable
+20:20:48.637  INFO  tests.TestBase  The name of starts method is--->addWrongLastNameContact
+20:20:55.322  INFO  tests.TestBase  Method 'addWrongLastNameContact' stopped with: 
+Contacts(name=Vovan, lastName=, phone=232434535631568, email=vov1568@gmail.com, address=Ariel, description=null)
+20:20:55.323  INFO  tests.TestBase  adding new contact failed due to invalid 'Last Name' field: button 'Save' not clickable
+20:20:55.362  INFO  tests.TestBase  The name of starts method is--->addWrongNameContact
+20:21:02.006  INFO  tests.TestBase  Method 'addWrongNameContact' stopped with: 
+Contacts(name=, lastName=Ozer, phone=232434535631871, email=vov1871@gmail.com, address=Ariel, description=null)
+20:21:02.007  INFO  tests.TestBase  adding new contact failed due to invalid 'Name' field: button 'Save' not clickable
+20:21:02.042  INFO  tests.TestBase  The name of starts method is--->addWrongPhoneContact
+20:21:08.639  INFO  tests.TestBase  Method 'addWrongPhoneContact' stopped with: 
+Contacts(name=Vovan, lastName=Ozer, phone=, email=vovan1917@gmail.com, address=Ariel, description=null)
+20:21:08.639  INFO  tests.TestBase  adding new contact failed due to invalid 'Phone' field: Error message is: 'Phone not valid'
+ button 'Save' not clickable
+20:27:49.041  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:27:53.231  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:27:53.266  INFO  tests.TestBase  The name of starts method is--->loginSuccessNew
+20:28:53.814  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:28:54.860  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:28:54.887  INFO  tests.TestBase  The name of starts method is--->loginSuccess
+20:28:59.938  INFO  tests.TestBase  Login with valid data : email:bob@gmail.com & password: Bob12345$
+20:29:01.283  INFO  tests.TestBase  Test success manager.HelperContact@5ef6fd7f
+20:30:16.725  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:30:18.513  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:30:18.536  INFO  tests.TestBase  The name of starts method is--->loginSuccess
+20:30:23.604  INFO  tests.TestBase  Login with valid data : email:bob@gmail.com & password: Bob12345$
+20:30:24.879  INFO  tests.TestBase  Test success manager.HelperUser@71904469
+20:34:49.983  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:34:50.964  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:34:50.988  INFO  tests.TestBase  The name of starts method is--->loginWrongEmail
+20:34:57.473  INFO  tests.TestBase  Method loginWrongEmail stopped with Error message: Wrong email or password
+20:35:52.292  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:35:54.809  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:35:54.834  INFO  tests.TestBase  The name of starts method is--->loginWrongEmail
+20:36:01.707  INFO  tests.TestBase  Method 'loginWrongEmail' stopped with Error message: 'Wrong email or password'
+20:37:41.785  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:37:42.687  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:37:42.713  INFO  tests.TestBase  The name of starts method is--->loginUnregisterUser
+20:37:51.254  INFO  tests.TestBase  Method 'loginUnregisterUser' stopped with Error message: 'Wrong email or password'
+20:42:20.822  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:42:22.341  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:42:22.370  INFO  tests.TestBase  The name of starts method is--->registrationSuccess
+20:42:28.932  INFO  tests.TestBase  Method 'addWrongEmailContact' stopped with: \n"Bob62@gmail.comBob12345$62
+20:44:00.008  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:44:04.092  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:44:04.114  INFO  tests.TestBase  The name of starts method is--->registrationSuccess
+20:44:10.471  INFO  tests.TestBase  Method 'addWrongEmailContact' stopped with: \n"Bob72@gmail.comBob12345$72
+20:46:41.193  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:46:42.753  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:46:42.778  INFO  tests.TestBase  The name of starts method is--->registrationSuccess
+20:46:49.171  INFO  tests.TestBase  Method 'addWrongEmailContact' stopped with email:Bob51@gmail.compassword:Bob12345$
+20:48:06.521  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+20:48:08.359  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+20:48:08.381  INFO  tests.TestBase  The name of starts method is--->registrationSuccess
+20:48:14.823  INFO  tests.TestBase  Method 'registrationSuccess' stopped with email:Bob26@gmail.com password:Bob12345$
+21:03:06.534  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+21:03:07.735  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+21:03:07.759  INFO  tests.TestBase  The name of starts method is--->registrationWrongEmail
+21:03:14.125  INFO  tests.TestBase  Method 'registrationWrongEmail' stopped with Error message: 'Wrong email or password format'
+21:06:40.059  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+21:06:46.125  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+21:06:46.149  INFO  tests.TestBase  The name of starts method is--->registrationSuccess
+21:06:52.582  INFO  tests.TestBase  Method 'registrationSuccess' stopped with email:Bob11@gmail.com password:Bob12345$
+21:07:21.636  INFO  manager.ApplicationManager  All tests start in Chrome Browser
+21:07:23.206  INFO  manager.ApplicationManager  Current Url-->https://telranedu.web.app/home
+21:07:23.232  INFO  tests.TestBase  The name of starts method is--->registrationSuccess
+21:07:29.578  INFO  tests.TestBase  Method 'registrationSuccess' stopped with email:Bob27@gmail.com password:Bob12345$
+21:07:29.581  INFO  tests.TestBase  The name of starts method is--->registrationUserAlreadyExists
+21:07:30.115  INFO  tests.TestBase  Method 'registrationUserAlreadyExists' stopped with Error message: 'User already exist'
+21:07:30.116  INFO  tests.TestBase  The name of starts method is--->registrationWrongEmail
+21:07:35.632  INFO  tests.TestBase  Method 'registrationWrongEmail' stopped with Error message: 'Wrong email or password format'
+21:07:35.634  INFO  tests.TestBase  The name of starts method is--->registrationWrongPassword
+21:07:41.162  INFO  tests.TestBase  Method 'registrationWrongPassword' stopped with Error message: 'Wrong email or password format'

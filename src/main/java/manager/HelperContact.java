@@ -68,4 +68,7 @@ public void clickByContactForm(){
     public void refreshPage() {
         click(By.cssSelector("a[href = '/home']"));
     }
+    public boolean isAddPageStillDisplayed() {
+        return wd.findElements(By.cssSelector("a.active[href='/add']")).size()>0;
+    }
 }

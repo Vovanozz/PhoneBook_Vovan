@@ -28,14 +28,13 @@ public class AddNewContactTests extends TestBase{
                 .phone("1234556676"+r)
                 .email("vov"+r+"@gmail.com")
                 .description("The best friend").build();
-        //System.out.println(contacts.toString());
+        //System.out.println(contacts.toString());\
         app.getHelperContact().openContactForm();
         app.getHelperContact().FillContactForm(contacts);
         app.getHelperContact().submitContactForm();
-       // app.getHelperContact().clickByContactForm();
         Assert.assertTrue(app.getHelperContact().isContactAddedByName(contacts.getName()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
-
+        logger.info("Method 'addContactSuccessAllFields' stopped with: \n" +contacts.toString());
     }
     @Test
     public void addContactByOnlyRequiredFields(){
@@ -50,6 +49,7 @@ public class AddNewContactTests extends TestBase{
         app.getHelperContact().submitContactForm();
         Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByName(contacts.getName()));
+        logger.info("Method 'addContactByOnlyRequiredFields' stopped with: \n" +contacts.toString());
     }
     @Test
     public void addWrongNameContact(){
@@ -65,6 +65,9 @@ public class AddNewContactTests extends TestBase{
         app.getHelperContact().pause(1000);
         Assert.assertFalse(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
         Assert.assertTrue(app.getHelperContact().buttonSaveUnClickable());
+        Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
+        logger.info("Method 'addWrongNameContact' stopped with: \n" +contacts.toString());
+        logger.info("adding new contact failed due to invalid 'Name' field: button 'Save' not clickable");
 
     }
     @Test
@@ -81,6 +84,8 @@ public class AddNewContactTests extends TestBase{
         app.getHelperContact().pause(1000);
         Assert.assertFalse(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
         Assert.assertTrue(app.getHelperContact().buttonSaveUnClickable());
+        logger.info("Method 'addWrongLastNameContact' stopped with: \n" +contacts.toString());
+        logger.info("adding new contact failed due to invalid 'Last Name' field: button 'Save' not clickable");
     }
     @Test
     public void addWrongEmailContact(){
@@ -97,6 +102,8 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Email not valid"));
         Assert.assertFalse(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
         Assert.assertTrue(app.getHelperContact().buttonSaveUnClickable());
+        logger.info("Method 'addWrongEmailContact' stopped with: \n" +contacts.toString());
+        logger.info("adding new contact failed due to invalid 'email' field: Error message is: 'Email not valid'\n button 'Save' not clickable");
     }
     @Test
     public void addWrongPhoneContact(){
@@ -113,6 +120,8 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.getHelperContact().isErrorMessageDisplayed("Phone not valid"));
         Assert.assertFalse(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
         Assert.assertTrue(app.getHelperContact().buttonSaveUnClickable());
+        logger.info("Method 'addWrongPhoneContact' stopped with: \n" +contacts.toString());
+        logger.info("adding new contact failed due to invalid 'Phone' field: Error message is: 'Phone not valid'\n button 'Save' not clickable");
     }
     @Test
     public void addWrongAddressContact(){
@@ -128,6 +137,8 @@ public class AddNewContactTests extends TestBase{
         app.getHelperContact().pause(1000);
         Assert.assertFalse(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
         Assert.assertTrue(app.getHelperContact().buttonSaveUnClickable());
+        logger.info("Method 'addWrongAddressContact' stopped with: \n" +contacts.toString());
+        logger.info("adding new contact failed due to invalid 'Address' field:  button 'Save' not clickable");
 
     }
     @AfterMethod
